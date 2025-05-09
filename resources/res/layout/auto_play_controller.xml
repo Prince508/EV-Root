@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_gravity="end"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:textAlignment="viewEnd">
+    <RelativeLayout
+        android:id="@+id/FLOAT_LOGO_VIEW"
+        android:visibility="visible"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:id="@+id/AUTO_PLAY_CONTROLLER_LOGO"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:layout_marginLeft="2dp"
+            android:layout_marginTop="2dp"
+            android:src="@drawable/stop_auto"/>
+    </RelativeLayout>
+</RelativeLayout>
